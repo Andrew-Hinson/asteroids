@@ -73,7 +73,7 @@ def log_state():
 
                 sprites_data.append(sprite_info)
 
-            game_state[key] = {"count": len(value), "sprites": sprites_data}
+                game_state[key] = {"count": len(value), "sprites": sprites_data}
 
         if len(game_state) == 0 and hasattr(value, "position"):
             sprite_info = {"type": value.__class__.__name__}
