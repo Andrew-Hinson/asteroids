@@ -10,4 +10,5 @@ wheels/
 .venv
 
 # State
+.jsonl
 game_state.jsonl
